@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+[data-emoji] {
+  font-style: normal;
+  font-weight: normal;
+}
+[data-emoji]:before {
+  content: attr(data-emoji);
+  margin-right: .125em;
+}
+
 body {
   line-height: 1.5rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
