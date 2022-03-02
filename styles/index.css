@@ -8,7 +8,7 @@ body {
   font-size: 1.25rem;
   background-color: #f3f3fb;
   height: auto;
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
 }
 
@@ -22,8 +22,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 400px;
-  padding-left: 1em;
+  padding-left: 0.25em;
 }
 
 form {
